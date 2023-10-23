@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Battleship</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="icon" href="battle.svg" />
+  </head>
+  <body>
+    <main>
+      <div
+        class="container-fluid d-flex justify-content-center bg-light vh-100"
+      >
+        <div class="">
+          <div class="container-fluid d-flex justify-content-center">
+            <div class="row text-center mx-auto">
+              <div class="col-12 mt-4">
+                <h1>Battleship</h1>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid d-flex justify-content-center p-0">
+            <div class="row mt-2 text-center" id="gameboards">
+              <div class="col-auto mx-auto">
+                <div
+                  class="div bg-info border border-black mb-3"
+                  id="gameboardPerson"
+                ></div>
+              </div>
+              <div class="col-auto mx-auto">
+                <div
+                  class="div bg-info border border-black mb-3"
+                  id="gameboardComputer"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto text-center">
+            <h5 id="winnerText" class="text-center mb-3"></h5>
+            <button
+              type="button"
+              id="restartGameBtn"
+              class="btn btn-primary mb-3"
+            >
+              Restart Game
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

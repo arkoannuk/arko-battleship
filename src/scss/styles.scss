@@ -1,0 +1,24 @@
+@import "bootstrap/scss/bootstrap";
+
+#gameboardComputer .row .tile:hover {
+  background-color: #0d6dfd49;
+  cursor: pointer;
+}
+
+#gameboards {
+  user-select: none;
+}
+
+.tile {
+  font-size: 32px;
+  height: 47px;
+  width: 47px;
+}
+
+@media (max-width: 992px) {
+  .tile {
+    font-size: 23px;
+    height: 33px;
+    width: 33px;
+  }
+}
